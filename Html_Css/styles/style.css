@@ -1,0 +1,51 @@
+/* SELECTOR */
+/* ID SELECTOR */
+
+#introduction_location{
+    background-color: #287233 !important;  /* !important = utilizzandolo dopo aver settato la nostra proprietà non potrà essere sovrascritta.  */
+    border: 3px black solid;
+       
+}
+
+
+#recipe{
+    background-color: white;
+    border: 3px black solid;
+}
+
+table{
+    border: inherit;
+}
+
+#step_recipe{
+    background-color: red;
+    color: white;
+    border: 3px black solid;
+}
+
+/* CLASS SELECTOR */
+
+.ok{
+    font-weight: bold;
+    color: red;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    
+}
+/* Selettore per selezionare solo gli h2 figli di section, tutti gli altri h2 non verranno modificati */
+section.block h2{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2{
+    color: white;
+}
+
+
+p{
+    color: white;
+}
